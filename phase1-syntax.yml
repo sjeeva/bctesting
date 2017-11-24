@@ -1,31 +1,22 @@
 - users:
-  - userid: user1
-    password: password1
-
-  - userid: user2
-    password: password2
-  
+  - userid: [buyer or seller]
+    password: [password]
+  - userid: [buyer or seller]
+    password: [password]
     
-- transaction:
+- transactions:
   - name: [give a name for the transaction]
     description: [discribe the transaction]
     - action: createPurchaseOrder
-      user: user1
+      user: [buyer]
       projectName: [project name]
       description: [project description]
       offerAmount: [price]
-      
     - action: createBidOffer
-      user: user2
-      projectName: [project name]
-      projectId:
+      user: [seller]
       bidOfferAmount: [price]
-      
     - action: acceptBidOffer
-      user: user1
-      bidId:
-      
+      user: [buyer]
     - action: confirmOffer
-      user: user1
-      bidId:
+      user: [buyer]
     
