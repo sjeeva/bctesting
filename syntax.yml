@@ -11,15 +11,15 @@
     description: [discribe the transaction]
     - action: createPurchaseOrder
       user: user1
-      projectName:[project name]
+      projectName: [project name]
       description: [project description]
-      offerAmount:[price]
+      offerAmount: [price]
       
     - action: createBidOffer
       user: user2
-      projectName:[project name]
+      projectName: [project name]
       projectId:
-      bidOfferAmount:[price]
+      bidOfferAmount: [price]
       
     - action: acceptBidOffer
       user: user1
