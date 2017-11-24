@@ -6,7 +6,7 @@
     
 - transactions:
   - name: [give a name for the transaction]
-    description: [discribe the transaction]
+    description: [describe the transaction]
     - action: createPurchaseOrder
       user: [buyer]
       projectName: [project name]
